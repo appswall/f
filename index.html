@@ -14,6 +14,8 @@
 	
 	
 	<script type="text/javascript" src="./Funkin.js"></script>
+	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+	<script>vkBridge.send('VKWebAppInit');</script>
 	
 	<script>
 		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
